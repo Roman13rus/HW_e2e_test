@@ -1,0 +1,47 @@
+.image-cards {
+    display: flex;
+    flex-wrap: wrap;;        
+}
+
+.inactive img {
+	/* filter: brightness(30%) */
+  filter: grayscale(100%);
+}
+
+form {
+    display: flex;
+  }
+  .input {
+    display: inline-block;
+    vertical-align: middle;
+    padding: .55rem .75rem;
+  }
+  /* кнопка */
+  .submit {
+    display: inline-block;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #f4f0f0;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: #087503;
+    border: 1px solid #0b0b0b;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: background-color .15s ease-in-out;
+  }
+  .submit:hover {
+    background-color: #bdbdbd;
+  }
+
+  dialog {
+	  margin: 10px;
+	  background: lightblue;
+	  border: none;
+	  border-radius: 1rem;
+	}
